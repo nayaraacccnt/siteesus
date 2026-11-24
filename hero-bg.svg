@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:0.8" />
+    </linearGradient>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Fundo com gradiente -->
+  <rect width="1200" height="600" fill="url(#heroGradient)"/>
+  
+  <!-- Grid pattern -->
+  <rect width="1200" height="600" fill="url(#grid)"/>
+  
+  <!-- Formas geométricas decorativas -->
+  <circle cx="100" cy="100" r="30" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="1100" cy="500" r="40" fill="rgba(255,255,255,0.08)"/>
+  <rect x="900" y="50" width="60" height="60" fill="rgba(255,255,255,0.06)" rx="10"/>
+  <polygon points="200,500 250,450 300,500 250,550" fill="rgba(255,255,255,0.05)"/>
+</svg>
